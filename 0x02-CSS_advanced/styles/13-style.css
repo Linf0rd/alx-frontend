@@ -41,26 +41,21 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
 }
 
-a {
-  text-decoration: none;
-  color: var(--text-color);
-}
-
-a[href]:link {
+a:link {
   color: var(--text-color);
   text-decoration: None;
 }
 
-a[href]:visited {
+a:visited {
   font-style: italic;
 }
 
-a[href]:hover {
-  text-decoration: underline;
+a:active {
+  background-color: var(--color-light-grey);
 }
 
-a[href]:active {
-  background-color: var(--color-light-grey);
+a:hover {
+  text-decoration: underline;
 }
 
 .section-header {
